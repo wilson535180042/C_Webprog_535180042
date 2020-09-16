@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: LightGoldenRodYellow;
+    font-family: Arial;
+}
+
+.Depan{
+    position: absolute;
+    text-align: left;
+    color: black;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.big{
+    font-size: 30px;
+}
+
+.big2{
+    font-size: 80px;
+}
+
+.hr2{
+    height: 5px;
+    color: red;
+    background-color: red;
+    border: none;
+    margin: auto;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.Title{
+    display: table-caption;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 580px;
+    margin-bottom: 40px;
+    margin-left: 260px;
+}
+
+table,tr,td{
+    margin-left: 260px;
+    margin-top: 15px;
+    background-color: LightGoldenRodYellow ;
+    font-family: century gothic;
+    color: green;
+    border: 5px solid lightblue;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+.kaki{
+    background: lightsalmon;
+    margin-top: 80px;
+}
+
+footer p{
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+}
+
+#contain{
+    clear: both;
+}
+
+.fake-image{
+    cursor: pointer;
+}
+
+.fake-image img{
+    width: 50px;
+    float: right;
+    padding: 10px;
+}
+
+#contain:hover div.text{
+    display: block;
+}
+
+.text{
+    float: right;
+    display: none;
+    padding-top: 25px;
+}
